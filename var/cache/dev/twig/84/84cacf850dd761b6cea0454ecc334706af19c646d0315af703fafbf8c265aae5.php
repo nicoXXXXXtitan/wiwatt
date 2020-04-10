@@ -86,10 +86,10 @@ class __TwigTemplate_e205dd5194d85f86fa7da8817957aa44ecd55ed9d7116cb43dd9b4b4b4c
 
         // line 6
         echo "
-<h3>FAQ</h3>
 
 <div class=\"container-fluid d-flex justify-content-center mt-5\">
     <div class=\"faq_anwser mt-3 col-md-4\">
+            <h3 class=\"mb-3\">FAQ</h3>
         <h4>Le site est-il disponible partout, ou seulement en France ? </h4>
         <p>>> Le site est pour l'heure disponible en France, il est possible qu'une version future intègre les pays voisins.</p>
         <h4>Locataire, ai-je autre chose à payer ? Un abonnement?</h4>
@@ -142,10 +142,10 @@ class __TwigTemplate_e205dd5194d85f86fa7da8817957aa44ecd55ed9d7116cb43dd9b4b4b4c
 
 {% block body %}
 
-<h3>FAQ</h3>
 
 <div class=\"container-fluid d-flex justify-content-center mt-5\">
     <div class=\"faq_anwser mt-3 col-md-4\">
+            <h3 class=\"mb-3\">FAQ</h3>
         <h4>Le site est-il disponible partout, ou seulement en France ? </h4>
         <p>>> Le site est pour l'heure disponible en France, il est possible qu'une version future intègre les pays voisins.</p>
         <h4>Locataire, ai-je autre chose à payer ? Un abonnement?</h4>
@@ -160,6 +160,6 @@ class __TwigTemplate_e205dd5194d85f86fa7da8817957aa44ecd55ed9d7116cb43dd9b4b4b4c
 
     
 {{ include('partials/footer.html.twig') }}
-{% endblock %}", "home/faq.html.twig", "/var/www/html/PROJET/projet-PartageVehicules/wiwatt/templates/home/faq.html.twig");
+{% endblock %}", "home/faq.html.twig", "/var/www/html/PERSO/wiwatt/templates/home/faq.html.twig");
     }
 }

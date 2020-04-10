@@ -85,11 +85,11 @@ class __TwigTemplate_dc25bc76b12d979d691d41bad071dfd2d4f3669fd672bf5caa44afcb721
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "
-<h3>Mentions Légales</h3>
+        echo "<div class=\"container-fluid d-flex justify-content-center mt-5\">
+    <div class=\"faq_anwser mt-3 col-md-4\">
+        <h3 class=\"mb-3\">Mentions Légales</h3>
 
-<div class=\"container-fluid d-flex justify-content-center mt-5\">
-    <div class=\"faq_anwser mt-3 col-md-6\">
+
 
 <h3>1. Présentation du site.</h3>
 <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href=\"http://wiwatt.fr/\">wiwatt.fr</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
@@ -193,11 +193,11 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target=\"_blan
 {% block title %}FAQ{% endblock %}
 
 {% block body %}
-
-<h3>Mentions Légales</h3>
-
 <div class=\"container-fluid d-flex justify-content-center mt-5\">
-    <div class=\"faq_anwser mt-3 col-md-6\">
+    <div class=\"faq_anwser mt-3 col-md-4\">
+        <h3 class=\"mb-3\">Mentions Légales</h3>
+
+
 
 <h3>1. Présentation du site.</h3>
 <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href=\"http://wiwatt.fr/\">wiwatt.fr</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
@@ -267,6 +267,6 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target=\"_blan
 
     
 {{ include('partials/footer.html.twig') }}
-{% endblock %}", "home/mentions_legales.html.twig", "/var/www/html/PROJET/projet-PartageVehicules/wiwatt/templates/home/mentions_legales.html.twig");
+{% endblock %}", "home/mentions_legales.html.twig", "/var/www/html/PERSO/wiwatt/templates/home/mentions_legales.html.twig");
     }
 }

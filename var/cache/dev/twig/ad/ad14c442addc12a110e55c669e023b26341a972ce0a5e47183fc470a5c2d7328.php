@@ -86,7 +86,7 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
 
         // line 6
         echo "
-<p class=\"text-center my-5\">Equipe de 4 développeurs web Juniors, tous spécialisés Symfony.</p>
+<p class=\"text-center my-5\">Equipe de 4 développeurs web Juniors, tous spécialisés Symfony et React à venir.</p>
 
 <div class=\"container mx-auto d-flex row \">
 
@@ -109,8 +109,8 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
         <p class=\"font-weight-bold h5 text-center mt-5\">Zine-Eddine YAKHOUI</p>
         <p class=\"font-weight-bold h5 text-center\">Montbéliard</p>
         <div class=\"d-flex justify-content-center mt-2\">
-            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & JS |</span>
-            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">2022</span>           
+            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & React |</span>
+            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Disponible Janvier 2020</span>           
         </div>
         <div class=\"d-flex justify-content-center mt-2\">
             <p>yakhoui.z@gmail.com</p>
@@ -133,8 +133,8 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
         <p class=\"font-weight-bold h5 text-center mt-5\">Damien MAQUIGNON</p>
         <p class=\"font-weight-bold h5 text-center\">Caen</p>
         <div class=\"d-flex justify-content-center mt-2\">
-            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & JS |</span>
-            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Disponible ???</span>
+            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & React |</span>
+            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Disponible Janvier 2020</span>
         </div>
         <div class=\"d-flex justify-content-center mt-2\">
             <p>damienmaquignon@live.fr</p>
@@ -180,7 +180,7 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
 
 {% block body %}
 
-<p class=\"text-center my-5\">Equipe de 4 développeurs web Juniors, tous spécialisés Symfony.</p>
+<p class=\"text-center my-5\">Equipe de 4 développeurs web Juniors, tous spécialisés Symfony et React à venir.</p>
 
 <div class=\"container mx-auto d-flex row \">
 
@@ -203,8 +203,8 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
         <p class=\"font-weight-bold h5 text-center mt-5\">Zine-Eddine YAKHOUI</p>
         <p class=\"font-weight-bold h5 text-center\">Montbéliard</p>
         <div class=\"d-flex justify-content-center mt-2\">
-            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & JS |</span>
-            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">2022</span>           
+            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & React |</span>
+            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Disponible Janvier 2020</span>           
         </div>
         <div class=\"d-flex justify-content-center mt-2\">
             <p>yakhoui.z@gmail.com</p>
@@ -227,8 +227,8 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
         <p class=\"font-weight-bold h5 text-center mt-5\">Damien MAQUIGNON</p>
         <p class=\"font-weight-bold h5 text-center\">Caen</p>
         <div class=\"d-flex justify-content-center mt-2\">
-            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & JS |</span>
-            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Disponible ???</span>
+            <i class=\"fa fa-book text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Symfony & React |</span>
+            <i class=\"fa fa-calendar-check-o text-info\" aria-hidden=\"true\"></i><span class=\"text-small ml-1\">Disponible Janvier 2020</span>
         </div>
         <div class=\"d-flex justify-content-center mt-2\">
             <p>damienmaquignon@live.fr</p>
@@ -239,6 +239,6 @@ class __TwigTemplate_75555d80456c6af4f3b56fb9fc015d5e39c292aa0f4a3183591f8a583f8
 </div>
 
 {{ include('partials/footer.html.twig') }}
-{% endblock %}", "home/us.html.twig", "/var/www/html/PROJET/projet-PartageVehicules/wiwatt/templates/home/us.html.twig");
+{% endblock %}", "home/us.html.twig", "/var/www/html/PERSO/wiwatt/templates/home/us.html.twig");
     }
 }
