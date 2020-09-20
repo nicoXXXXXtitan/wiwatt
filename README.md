@@ -1,4 +1,4 @@
-# :closed_book: Wiwatt :closed_book:
+# :bike: Wiwatt :bike:
 
 :arrow_right: http://wiwatt.eu/ :arrow_left:
 
