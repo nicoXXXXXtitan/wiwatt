@@ -3,10 +3,10 @@
 :arrow_right: http://wiwatt.eu/ :arrow_left:
 
 Page d'acceuil
-![Page d'acceuil](../home.png "acceuil")
+![Page d'acceuil](./home.png "acceuil")
 
 Résultat d'une recherche de véhicule
-![Page utilisateur connecté](../resultat-recherche.png "acceuil")
+![Page utilisateur connecté](./resultat-recherche.png "acceuil")
 
 
 :arrow_right:  Application de gestion de location de véhicules légers électriques (trottinette,vélo..etc) entre particuliers (http://wiwatt.eu/).
