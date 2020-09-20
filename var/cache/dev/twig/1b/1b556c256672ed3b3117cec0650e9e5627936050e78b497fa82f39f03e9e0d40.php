@@ -299,6 +299,6 @@ class __TwigTemplate_27749e3ec3cfbd2899b7499e7ef99f668d0488327157b8c9c5fff30ec8c
 {{ include('partials/footer.html.twig') }}
 {% endblock %}
 
-", "home/index.html.twig", "/var/www/html/PROJET/projet-PartageVehicules/wiwatt/templates/home/index.html.twig");
+", "home/index.html.twig", "/var/www/html/perso/wiwatt/wiwatt/templates/home/index.html.twig");
     }
 }

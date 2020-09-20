@@ -14,8 +14,8 @@
         <title>{% block title %}{% endblock %}</title>
     {% block stylesheets %}{% endblock %}
 </head>
-<body>
 
+<body>
     <header class="container-fluid pt-3 pb-2">
         <div class="row d-flex justify-content-between align-items-center px-3">
             <div class="d-none d-md-block">
@@ -31,25 +31,22 @@
             </div>            
             <div>
                 {% if app.user %}
-                    <div class="d-flex flex-column align-items-center">
-                   
-                    <div class="dropdown align-center header-user-menu">
-                        <span  class="dropdown-toggle" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="card-avatar" height="36" src="{{ asset(app.user.avatar) }}" alt="avatar">
-                            <span class="text-small font-weight-bold align-bottom">{{ app.user.firstname | capitalize }}</span>
-                        </span>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
-                            
-                            <a class="dropdown-item text-small" href="{{ path('user_information') }}">Mon compte</a>
-                            <a class="dropdown-item text-small" href="{{ path('owner_historic') }}">Gérer mes locations</a>
-                            <a class="dropdown-item text-small" href="{{ path('user_vehicles') }}">Mes véhicules</a>
-                            <a class="dropdown-item text-small" href="{{ path('user_post') }}">Mes annonces</a>
-                            <a class="dropdown-item text-danger text-small" href="{{ path('app_logout') }}">Déconnexion</a>
-                        </div>
-                    </div>
-                    
-                </div>
-               
+                    <div class="d-flex flex-column align-items-center">                
+                        <div class="dropdown align-center header-user-menu">
+                            <span  class="dropdown-toggle" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="card-avatar" height="36" src="{{ asset(app.user.avatar) }}" alt="avatar">
+                                <span class="text-small font-weight-bold align-bottom">{{ app.user.firstname | capitalize }}</span>
+                            </span>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                                
+                                <a class="dropdown-item text-small" href="{{ path('user_information') }}">Mon compte</a>
+                                <a class="dropdown-item text-small" href="{{ path('owner_historic') }}">Gérer mes locations</a>
+                                <a class="dropdown-item text-small" href="{{ path('user_vehicles') }}">Mes véhicules</a>
+                                <a class="dropdown-item text-small" href="{{ path('user_post') }}">Mes annonces</a>
+                                <a class="dropdown-item text-danger text-small" href="{{ path('app_logout') }}">Déconnexion</a>
+                            </div>
+                        </div>           
+                    </div>              
                 {% else %}
                     <div>
                         <a id="inscription" href="{{ path('subscribe') }}" class="btn btn-sm btn-outline-info">Inscription</a>
@@ -57,8 +54,7 @@
                    </div>
                 {% endif %}
             </div> 
-        </div>
-        
+        </div>     
     </header>
    
     <div class="container">
@@ -71,11 +67,8 @@
         {% endfor %}
     </div>
 
- 
-
-
-
 {% block body %}{% endblock %}
+
 <script src="{{ asset('js/jquery-3.4.1.min.js') }}"></script>
 <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

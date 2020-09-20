@@ -254,26 +254,26 @@ class VehicleRepository extends ServiceEntityRepository
             ->getResult()
         ;
 
-        $VehiclesMatch = [];
+
+        $vehiclesMatch = [];
 
         foreach ($vehicles as $vehicle) {
 
-            if (count($VehiclesMatch) == 4 ){
+            if (count($vehiclesMatch) == 4 ){
 
-                return $VehiclesMatch;
+                return $vehiclesMatch;
             }
 
             foreach ($vehicle->getDates() as $date) {
+               
                 if ($date->getAvailableDate() >= $this->dateTime) {
-                    $VehiclesMatch[] = $vehicle;
+                    $vehiclesMatch[] = $vehicle;         
                     break;
                 }
             }
-            
-        
-
         } 
-        return $VehiclesMatch;
+    
+        return $vehiclesMatch;
 
     }
 }
