@@ -2,10 +2,10 @@
 
 :arrow_right: http://wiwatt.eu/ :arrow_left:
 
-Page d'acceuil
+###Page d'acceuil
 ![Page d'acceuil](./home.png "acceuil")
 
-Résultat d'une recherche de véhicule
+###Résultat d'une recherche de véhicule
 ![Page utilisateur connecté](./resultat-recherche.png "acceuil")
 
 
