@@ -15,6 +15,6 @@
 
 Technos utilisées :
 
-* Front-end : HTML/CSS, JS, Leaflet (pour la carte).
-* Back-end : Symfony PHP, Swiftmailer, mySQL
+* Front-end : HTML/CSS | JS | Leaflet (pour la carte).
+* Back-end : PHP | Symfony | Swiftmailer | mySQL
 
