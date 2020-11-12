@@ -11,7 +11,7 @@
 
 :arrow_right:  Application de gestion de location de véhicules légers électriques (trottinette,vélo..etc) entre particuliers (http://wiwatt.eu/).
 
-:arrow_right:   Projet 100 % Symfony 4.3 
+:arrow_right:   Projet sous Symfony 4.3 
 
 Technos utilisées :
 
